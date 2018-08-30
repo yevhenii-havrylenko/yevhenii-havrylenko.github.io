@@ -8,5 +8,5 @@ title: Todo
 - Книга, по которой сняли фильм 
 - Книга в детективном жанре
 
-{% for post in site.posts %}
-{{ post.date | date: "%Y-%m-%d" }}  [ {{ post.title }} ]({{ post.url }}) {% endfor %}
+{% for post in site.posts %}[ {{ post.title }} ]({{ post.url }}) 
+{% endfor %}
