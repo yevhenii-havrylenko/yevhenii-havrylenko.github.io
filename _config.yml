@@ -1,10 +1,10 @@
 # Permalinks
-permalink:           pretty
+permalink:            /:title.html
 
 # Setup
-title:               Poole
-tagline:             The Jekyll Butler
-url:                 http://getpoole.com
+title:               Yevhenii Havrylenko
+tagline:             #reactorbookchallеnge
+url:                 https://yevhenii-havrylenko.github.io
 paginate:            1
 baseurl:             ""
 
@@ -15,16 +15,6 @@ sass:
   sass_dir:          _sass
   style:            :compressed
 
-# About/contact
-author:
-  name:              Mark Otto
-  url:               https://twitter.com/mdo
-  email:             markdotto@gmail.com
-
-# Custom vars
-version:             2.0.0
-github:
-  repo:              https://github.com/poole/poole
 
 # Gems
 gems:
