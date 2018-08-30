@@ -3,7 +3,6 @@ layout: default
 title: Home
 ---
 
-<article class="post">
   <h1 class="post-title">reactorbookchallеnge</h1>
   <time class="post-date">2018-08-31</time>
   
@@ -13,7 +12,7 @@ title: Home
 - [ ]  Книга, написанная в 2017 году:  
 - [ ]  Книга, по которой сняли фильм:  
 - [ ]  Книга в детективном жанре:  
-</article>
+
 
 {% for post in site.posts %}
   [ {{ post.title }} ]({{ post.url }}) <!--  &raquo;  {{ post.date | date: "%Y-%m-%d" }} -->  
