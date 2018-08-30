@@ -13,10 +13,8 @@ title: Home
 - [ ]  Книга, написанная в 2017 году:  
 - [ ]  Книга, по которой сняли фильм:  
 - [ ]  Книга в детективном жанре:  
+</article>
 
 {% for post in site.posts %}
   [ {{ post.title }} ]({{ post.url }}) <!--  &raquo;  {{ post.date | date: "%Y-%m-%d" }} -->  
 {% endfor %}
-
-</article>
-
