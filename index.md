@@ -4,8 +4,8 @@ title: Home
 ---
 
 <article class="post">
-  <h1 class="post-title">{{ page.title }}</h1>
-  <time datetime="{{ page.date | date_to_xmlschema }}" class="post-date">{{ page.date | date_to_string }}</time>
+  <h1 class="post-title">reactorbookchallеnge</h1>
+  <time datetime="{{ page.date | date_to_xmlschema }}" class="post-date">2018-08-31</time>
   
 
 - [ ] Книга с цифрой в названии:  
