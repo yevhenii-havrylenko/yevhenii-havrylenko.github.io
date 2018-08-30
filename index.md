@@ -9,4 +9,5 @@ title: Todo
 - Книга в детективном жанре
 
 {% for post in site.posts %}
-{{ post.date | date: "%Y-%m-%d" }}  [ {{ post.title }} ]({{ post.url }}) {% endfor %}
+{{ post.date | date: "%Y-%m-%d" }}  [ {{ post.title }} ]({{ post.url }}) 
+{% endfor %}
