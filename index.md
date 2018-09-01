@@ -13,3 +13,7 @@ title: Todo
 ## Реальность
 {% for post in site.posts %} - [ {{ post.title }} ]({{ post.url }}) ({{ post.date | date: "%d.%m" }})  
 {% endfor %}
+
+
+
+https://docs.google.com/spreadsheets/d/1pjw6O7p-LQxWFYyeF9NrYt_2b0ILHGnUqJlUVMN2nnY
