@@ -11,5 +11,5 @@ title: Todo
 - Книга в детективном жанре
 
 ## Реальность
-{% for post in site.posts %} - [ {{ post.title }} ]({{ post.url }}) ( {{ post.date | date: "%d.%m" }} )  
+{% for post in site.posts %} - [ {{ post.title }} ]({{ post.url }}) ({{ post.date | date: "%d.%m" }})  
 {% endfor %}
