@@ -12,25 +12,22 @@ title: Home
       </a>
     </h1>
 
-    <time datetime="{{ post.date | date_to_xmlschema }}" class="post-date">{{ post.date | date: "%Y-%m-%d" }}</time>
+    <time datetime="{{ post.date | date_to_xmlschema }}" class="post-date">{{ post.date | date_to_string }}</time>
 
-    {{ post.excerpt }}
+    {{ post.content }}
   </article>
   {% endfor %}
 </div>
 
 <div class="pagination">
-  <h1>
-  {% if paginator.previous_page %}
-    <a href="{{ paginator.previous_page_path }}" class="previous">&lt;</a>
-  {% else %}
-    <span class="previous">&lt;</span>
-  {% endif %}
-  <span>=</span>
   {% if paginator.next_page %}
-    <a href="{{ paginator.next_page_path }}" class="next">&gt;</a>
+    <a class="pagination-item older" href="{{ paginator.next_page_path | prepend: site.baseurl }}">Older</a>
   {% else %}
-    <span class="next ">&gt;</span>
+    <span class="pagination-item older">Older</span>
   {% endif %}
-  </h1>
+  {% if paginator.previous_page %}
+    <a class="pagination-item newer" href="{{ paginator.previous_page_path | prepend: site.baseurl }}">Newer</a>
+  {% else %}
+    <span class="pagination-item newer">Newer</span>
+  {% endif %}
 </div>
