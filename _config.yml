@@ -6,7 +6,7 @@ title:               Yevhenii Havrylenko
 tagline:             'Reading List'
 url:                 https://yevhenii-havrylenko.github.io
 paginate:            1
-baseurl:             ""excerpt_separator:   <!--more-->
+baseurl:             ""
 excerpt_separator:   <!--more-->
 
 #pages_list:
