@@ -8,8 +8,8 @@ url:                 https://yevhenii-havrylenko.github.io
 paginate:            1
 baseurl:             ""
 
-pages_list:
-  list: '/list.html'
+#pages_list:
+#  list: '/list.html'
 
 
 # Assets
