@@ -1,5 +1,5 @@
 ---
-layout: Page
+layout: page
 title: Reading List
 ---
 <section class="archive-post-list">
