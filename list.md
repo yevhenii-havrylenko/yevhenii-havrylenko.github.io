@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: Page
 title: Reading List
 ---
 <section class="archive-post-list">
@@ -8,7 +8,7 @@ title: Reading List
        {% assign currentDate = post.date | date: "%Y" %}
        {% if currentDate != myDate %}
            {% unless forloop.first %}</p>{% endunless %}
-           <h1>{{ currentDate }}</h1>
+           <h2>{{ currentDate }}</h2>
            <p>
            {% assign myDate = currentDate %}
        {% endif %}
