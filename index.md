@@ -8,7 +8,7 @@ title: Reading List
        {% assign currentDate = post.date | date: "%Y" %}
        {% if currentDate != myDate %}
            {% unless forloop.first %}</p>{% endunless %}
-           <h2>{{ currentDate }}</h2>
+           <h1>{{ currentDate }}</h1>
            <p>
            {% assign myDate = currentDate %}
        {% endif %}
