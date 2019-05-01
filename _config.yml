@@ -3,7 +3,7 @@ permalink:            /:title.html
 
 # Setup
 title:               Yevhenii Havrylenko
-tagline:             '#reactorbookchallеnge'
+tagline:             'Reading List'
 url:                 https://yevhenii-havrylenko.github.io
 paginate:            1
 baseurl:             ""
