@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 'Виктор Пелевин, «Transhumanism Inc.»'
+title: 'Виктор&nbsp;Пелевин, «Transhumanism&nbsp;Inc.»'
 ---
 
 ## Цитаты
